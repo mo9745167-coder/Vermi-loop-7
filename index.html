@@ -7,7 +7,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <!-- <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet"> -->
 <meta name="google-site-verification" content="McWj6Brt8vA_SuDDucigbJeOHAT6YT1mo_PZ--VHLlw" />
-<style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var form = document.getElementById("orderForm") || document.querySelector("form");
+    if(form) {
+        form.action = "https://formspree.io/f/xgoqlevr";
+        form.method = "POST";
+    }
+});
+</script>
+   <style>
 /* ======================================================
    VERMILOOP — PREMIUM DARK  •  أسود وذهبي فاخر
    ====================================================== */
